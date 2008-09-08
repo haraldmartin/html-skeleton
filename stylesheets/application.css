@@ -9,6 +9,11 @@ body{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pr
 .clearfix:after {  content: "."; display: block; height: 0; clear: both; visibility: hidden;  }
 .clearfix { display: inline-block; }
 
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; } 
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
 /* -------------------------------------------------------------------------------- */
 
 /*
